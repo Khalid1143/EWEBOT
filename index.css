@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+h1,h2,h3,h4,h5,h6,.ewebot,p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-style: oblique; */
+}
+.ewebot_mainheader{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.ewebot_mainheader ul{
+    list-style-type: none;
+}
+.ewebot_mainheader ul a{
+    text-decoration: none;
+}
+.ewebot_mainheader ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.fa-address-card{
+    font-size: 50px;
+    color: orangered;
+}
+.ewebot_mainheader .ewebot {
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight:bold;
+}
+.fa-whatsapp, .fa-search{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.ewebot_mainheader3{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ewebot_mainheader .ewebot_mainheader3 button{
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 30px;
+}
+.main_text{
+    flex-basis: 40%;
+}
+.main_img {
+    flex-basis: 50%;
+    background-image: url(./image/smile.jpg);
+    background-size:cover ;
+    background-position: center;
+    height: 450px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.541);
+
+}
+.main .main_text h2{
+    color: orangered;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.main .main_text p{
+    width: 70%;
+    padding: 15px 0;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+.main .main_text input {
+    padding: 10px 5px;
+    width: 60%;
+    border: none;
+    border-bottom: 3px solid orangered;
+}
+.main .main_text .more{
+    margin-top: 15px;
+    background-color: blue;
+    border: none;
+    font-size: 18px;
+    color: #eee;
+    font-weight: bold;
+}
+.company_logo section img{
+    width: 80px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    width: 200px;
+
+}
+.company_logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin:150px 0;
+    height: 20px;
+}
+.grid{
+    display: flex;
+    padding: 0 100px;
+    margin: 150px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid .grid_1, .grid_2{
+    flex-basis: 45%;
+}
+.grid .grid_1{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-between ;
+align-items: center;
+}
+.grid_1 div{
+    flex-basis: 47%;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 60px 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.527);
+    border-radius: 7px;
+
+}
+.grid .grid_1 div h1{
+    color: orangered;
+    font-size: 36px;
+    padding-bottom: 20px;
+
+}
+.grid_2{
+    text-transform: uppercase;
+}
+.grid_2 h1{
+     color: orangered;
+     padding: 20px 0;
+     font-size: 35px;
+}
+.grid_2 p{
+    font-size: small;
+    padding: 10px 0 25px 0;
+
+}
+.grid_2 button{
+    background-color: orangered;
+    padding: 18px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px orangered;
+}
+.grid_2 span {
+    padding-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.choose{
+    text-transform: uppercase;
+}
+.choose,h3,h1{
+    text-align: center;
+}
+.choose span h1{
+    color: orangered;
+    padding-top: 20px;
+    
+}
+.offers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin: 150px 0;text-align: center !important;
+}
+.offers,.branding, .web_dev, .commerce{
+    flex-basis: 30.33%;
+}
+.offers div{
+   font-size: small;
+    flex-basis: 30%;
+    background-color: white;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.527);
+    border-radius: 7px;
+    word-spacing: 5px;
+}
+.offers div h2{
+    padding: 15px 0;
+    text-align: center;
+}
+.offers div button{
+    border: none;
+    padding: 9px 25px;
+    color: orangered;
+    width: 100%;
+    margin: 30px 0 0 0;
+    font-weight: 600;
+}
+
+.fa-dribbble{
+    display: flex;
+    justify-content: center;
+    width: 100;
+    color: orangered;
+    font-size: 200;
+    align-items: center;
+}
+.experience {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.pay{
+    flex-basis: 40%;
+}
+.experience .pay p{
+    font-size: larger;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+.experience .pay h2{
+    color: orangered;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.experience .pay h5{
+    word-spacing: 10px;
+    line-height: 30px;
+}
+.experience .pay h4{
+    padding: 20px 0;
+}
+.experience .pay hr{
+    padding: 5px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+.experience .pay button{
+    padding: 10px 30px;
+    margin-top: 30px;
+    background-color: orangered;
+    color: #eee;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 8px rgb(228, 72, 16) ;
+    transition-property:transform;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.experience .pay button:hover{
+   
+    transform:rotate(360deg);
+}
+.experience .pay span{
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold
+}
+.second_img {
+    flex-basis: 50%;
+    background-image: url(./image/dock.jpg);
+    background-size:cover ;
+    background-position:center;
+    height: 500px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.541);
+}
+.talk{
+    text-align: center;
+    padding: 10px 60px;
+    color: whitesmoke;
+    background-color: orangered;
+    margin: 40px 100px;
+    border-radius: 10px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.talk form input{
+  width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.talk  input {
+    position: relative;
+}
+.talk .fa-telegram{
+        font-size: 20px;
+        color: red;
+        position:absolute ;
+       right: 20%;
+       top: 5px;
+       z-index: 1000;
+        width: 40%;
+    }
+.footer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    line-height: 30px;
+    padding: 50px 100px;
+    background-color: darkblue;
+    color: #eee;
+    
+}
+.footer .fa-address-card{
+    padding: 0 10px 0 0;
+}
+.footer section h2 a:first-child{
+font-size: 20px;
+}
+.footer a {
+    text-decoration: none;
+    transition-property: color;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.footer a:hover{
+    color: orangered;
+}
